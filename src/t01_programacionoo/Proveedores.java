@@ -1,5 +1,5 @@
 package t01_programacionoo;
 
-public class Proveedores {
+public class Proveedores extends Cliente {
 
 }

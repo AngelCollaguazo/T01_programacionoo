@@ -1,5 +1,6 @@
 package t01_programacionoo;
 
-public class Concesionario {
+public class Concesionario extends Cliente {
+	
 
 }
