@@ -11,8 +11,8 @@ public class MainT11E3 {
 		System.out.println("*************************************");
 		System.out.println("*  UNIVERSIDAD CENTRAL DEL ECUADOR  *");
 		System.out.println("*  ANGEL COLLAGUAZO                 *");
-		System.out.println("*  PROGRAMACION 1                   *");
-		System.out.println("*  Ejercicio 1                      *");
+		System.out.println("*  PROGRAMACION I                   *");
+		System.out.println("*  Ejercicio 3                      *");
 		System.out.println("*************************************");
 		System.out.println("Ingrese el valor del sueldo: ");
 		int S=teclado.nextInt();

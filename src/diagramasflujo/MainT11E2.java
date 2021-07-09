@@ -10,8 +10,8 @@ public class MainT11E2 {
 		System.out.println("*************************************");
 		System.out.println("*  UNIVERSIDAD CENTRAL DEL ECUADOR  *");
 		System.out.println("*  ANGEL COLLAGUAZO                 *");
-		System.out.println("*  PROGRAMACION 1                   *");
-		System.out.println("*  Ejercicio 1                      *");
+		System.out.println("*  PROGRAMACION I                   *");
+		System.out.println("*  Ejercicio 2                      *");
 		System.out.println("*************************************");
 		System.out.println("Ingrese el primer número: ");
 		int A=teclado.nextInt();

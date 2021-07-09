@@ -10,7 +10,7 @@ public class MainT11E1 {
 		System.out.println("*************************************");
 		System.out.println("*  UNIVERSIDAD CENTRAL DEL ECUADOR  *");
 		System.out.println("*  ANGEL COLLAGUAZO                 *");
-		System.out.println("*  PROGRAMACION 1                   *");
+		System.out.println("*  PROGRAMACION I                   *");
 		System.out.println("*  Ejercicio 1                      *");
 		System.out.println("*************************************");
 		System.out.println("Ingrese el primer número: ");
