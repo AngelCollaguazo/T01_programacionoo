@@ -8,6 +8,12 @@ public class MainT11E3 {
 		// TODO Auto-generated method stub
 		
 		Scanner teclado =new Scanner(System.in);//TECLADO
+		System.out.println("*************************************");
+		System.out.println("*  UNIVERSIDAD CENTRAL DEL ECUADOR  *");
+		System.out.println("*  ANGEL COLLAGUAZO                 *");
+		System.out.println("*  PROGRAMACION 1                   *");
+		System.out.println("*  Ejercicio 1                      *");
+		System.out.println("*************************************");
 		System.out.println("Ingrese el valor del sueldo: ");
 		int S=teclado.nextInt();
 		int B=100;
