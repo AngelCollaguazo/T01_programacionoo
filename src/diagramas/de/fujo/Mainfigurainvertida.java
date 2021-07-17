@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Mainfigurainvertida {
 
+	//Buen Trabajo :)
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("Ingrese el número de filas: ");
