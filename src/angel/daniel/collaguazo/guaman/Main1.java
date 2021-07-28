@@ -21,7 +21,6 @@ public class Main1 {
 			} else {
 				si = si + n;
 				ci = ci + 1;
-			
 				pi = si / ci;
 			}
 		}
