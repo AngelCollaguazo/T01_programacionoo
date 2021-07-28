@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		 * Crear un programa que solicite ingresar un número (solo positivos), y así
+		 * seguirá solicitando ingresar un número hasta que se ingrese el número cero (0),
+		 * cuando se ingrese el numero cero, ya no solicitará más números y en ese momento
+		 * el programa debe imprimir la suma solo de los números ingresados hasta ese momento.
+		 * Adicional debera imrpimir la cantidad de numeros ingresados por el usuario
+		 */
 		Scanner teclado = new Scanner(System.in);// TECLADO
 		int s = 0;
 		float p = 0;
@@ -26,3 +33,8 @@ public class Main {
 		System.out.println("La cantidad de numeros ingresados es: " + c);
 	}
 }
+
+
+
+
+

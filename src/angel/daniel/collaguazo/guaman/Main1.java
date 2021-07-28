@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class Main1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		 * Crear un programa que solicite ingresar un número (solo positivos), y así
+		 * seguirá solicitando ingresar un número hasta que se ingrese el número (-1),
+		 * cuando se ingrese el numero -1, ya no solicitará más números y en ese momento
+		 * el programa debe imprimir la suma solo de los números pares ingresados y el
+		 * promedio solo de los números impares ingresados hasta ese momento
+		 */
 		Scanner teclado = new Scanner(System.in);// TECLADO
 		int sp = 0;
 		int si = 0;
@@ -29,3 +36,9 @@ public class Main1 {
 		System.out.println("La cantidad de numeros impares ingresados es: " + ci);
 	}
 }
+
+
+
+
+
+
