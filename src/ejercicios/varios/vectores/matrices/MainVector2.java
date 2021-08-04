@@ -15,8 +15,8 @@ public class MainVector2 {
 	   int X[] = new int[n];
 		for(int i=0; i<n; i++) {
 		System.out.println("Ingrese valor de la posición: " + i);
-		 int a =lector.nextInt();
-		X[i]=a;
+		 int p =lector.nextInt();
+		X[i]=p;
 		}
 		//Recorriendo el vector lleno
 		for(int i=0; i<n; i++) {
