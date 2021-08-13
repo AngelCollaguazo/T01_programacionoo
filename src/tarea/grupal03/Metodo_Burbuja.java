@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Metodo_Burbuja {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("METODO BURBUJA");
@@ -18,20 +17,20 @@ public class Metodo_Burbuja {
 		for (int i = 0; i < elementos; i++) {
 			System.out.print("Ingrese valor de la posicion " + i + " : ");
 			int N = Lector.nextInt();
-			VectorX[i] = N; // Ingresamos los datos de la posicion		
+			VectorX[i] = N; // Ingresamos los datos de la posicion
 		}
-		
-		    //Ordemamiento Java
-			//syso Ctrl + espacio
+
+		// Ordemamiento Java
+		// syso Ctrl + espacio
 		System.out.println("");
-			System.out.println("Ordenamiento JAVA");
-			System.out.println("El vector antes de ordenar: " +Arrays.toString(VectorX));
-			
-			//Aqui ordeno mi vector
-			Arrays.sort(VectorX);
-			
-			System.out.println("El vector despues de ordenar: " +Arrays.toString(VectorX));
-		
+		System.out.println("Ordenamiento JAVA");
+		System.out.println("El vector antes de ordenar: " + Arrays.toString(VectorX));
+
+		// Aqui ordeno mi vector
+		Arrays.sort(VectorX);
+
+		System.out.println("El vector despues de ordenar: " + Arrays.toString(VectorX));
+
 		// Metodo Burbuja
 		for (int i = 0; i < elementos; i++) {
 			for (int j = 0; j < elementos - 1; j++) {
@@ -52,7 +51,6 @@ public class Metodo_Burbuja {
 		for (int i = elementos - 1; i >= 0; i--) {
 			System.out.print(VectorX[i] + " ");
 		}
-		
 	}
-	
+
 }
