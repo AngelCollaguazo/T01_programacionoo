@@ -13,7 +13,7 @@ public class Turno {
 			System.out.println(datosAImprimir+"Nombre:"+nombre+ " C.I:"+cedula+ " Telefono:"+telefono+ " Turno:#"+numTurno);
 			System.out.println("Pedido Entrada: "+entrada+ " Plato Fuerte:" +platofuerte+ " Postre:"+postre);
 			System.out.println("Lo mejor de lo mejor");
-			System.out.println("Disfruta y vuelve pronto ");
+			System.out.println( "Disfruta y vuelve pronto ");
 		}
 		
 }
