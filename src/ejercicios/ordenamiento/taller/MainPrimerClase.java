@@ -19,7 +19,7 @@ public class MainPrimerClase {
 		Estudiante andres = new Estudiante();
 		andres.setNombre("Andres");
 		andres.setApellido("Aguirre");
-		andres.setEdad(22);
+		andres.setEdad(23);
 		andres.setNumeroLista(2);
 
 		Estudiante alex = new Estudiante();
