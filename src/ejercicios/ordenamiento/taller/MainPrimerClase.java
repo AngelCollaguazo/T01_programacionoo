@@ -13,7 +13,7 @@ public class MainPrimerClase {
 		danilo.setNombre("Danilo");
 		danilo.setNumeroLista(1);
 		danilo.setApellido("Alvarracin");
-		danilo.setEdad(21);
+		danilo.setEdad(19);
 		danilo.setNumeroLista(1);
 
 		Estudiante andres = new Estudiante();
