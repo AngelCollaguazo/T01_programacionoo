@@ -18,5 +18,10 @@ public class Peon extends Pieza{
 	public void setPeonNegro(String peonNegro) {
 		this.peonNegro = peonNegro;
 	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

@@ -8,7 +8,7 @@ public class Alfil extends Pieza{
 	public String getAlfilBlanco() {
 		return alfilBlanco;
 	}
-	public void setAlfilBlanca(String alfilBlanco) {
+	public void setAlfilBlanco(String alfilBlanco) {
 		this.alfilBlanco = alfilBlanco;
 	}
 	
@@ -17,6 +17,11 @@ public class Alfil extends Pieza{
 	}
 	public void setAlfilNegro(String alfilNegro) {
 		this.alfilNegro = alfilNegro;
+	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

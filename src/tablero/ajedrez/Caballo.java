@@ -18,5 +18,10 @@ public class Caballo extends Pieza{
 	public void setCaballoNegro(String caballoNegro) {
 		this.caballoNegro = caballoNegro;
 	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

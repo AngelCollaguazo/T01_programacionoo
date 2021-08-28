@@ -1,6 +1,6 @@
 package tablero.ajedrez;
 
-public class Torre extends MainTablero{
+public class Torre extends Pieza{
 	
 	private String torreBlanco;
 	private String torreNegro;
@@ -17,6 +17,11 @@ public class Torre extends MainTablero{
 	}
 	public void setTorreNegro(String torreNegro) {
 		this.torreNegro = torreNegro;
+	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
 	}
 
 

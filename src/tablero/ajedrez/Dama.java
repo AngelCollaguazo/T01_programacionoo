@@ -18,8 +18,13 @@ public class Dama extends Pieza{
 	public String getDamaNegro() {
 		return damaNegro;
 	}
-	public void setDamaBlanco(String damaNegro) {
+	public void setDamaNegro(String damaNegro) {
 		this.damaNegro = damaNegro;
+	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
 	}
 
 

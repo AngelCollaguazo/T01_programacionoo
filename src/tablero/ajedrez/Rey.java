@@ -23,5 +23,10 @@ public class Rey extends Pieza{
 	public void setReyNegro(String reyNego) {
 		this.reyNegro = reyNegro;
 	}
+	@Override
+	public void avanzar() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
