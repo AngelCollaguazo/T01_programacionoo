@@ -1,15 +1,22 @@
 package tablero.ajedrez;
 
-public class Caballo extends MainTablero{
+public class Caballo extends Pieza{
 	
-
+	private String caballoBlanco;
+	private String caballoNegro;
 	
-	Torre caballoNegro1 = new Torre();
+	public String getCaballoBlanco() {
+		return caballoBlanco;
+	}
+	public void setCaballoBlanco(String caballoBlanco) {
+		this.caballoBlanco = caballoBlanco;
+	}
 	
-	Torre caballoNegro2 = new Torre();
-	
-	Torre caballoBlanco1 = new Torre();
-	
-	Torre caballoBlanco2 = new Torre();
+	public String getCaballoNegro() {
+		return caballoNegro;
+	}
+	public void setCaballoNegro(String caballoNegro) {
+		this.caballoNegro = caballoNegro;
+	}
 
 }

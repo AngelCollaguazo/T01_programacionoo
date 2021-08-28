@@ -1,40 +1,22 @@
 package tablero.ajedrez;
 
-public class Peon extends MainTablero{
+public class Peon extends Pieza{
 	
-	private String color;
+	private String peonBlanco;
+	private String peonNegro;
 	
-	Peon peonNegro1 = new Peon();
+	public String getPeonBlanco() {
+		return peonBlanco;
+	}
+	public void setPeonBlanco(String peonBlanco) {
+		this.peonBlanco = peonBlanco;
+	}
 	
-	Peon peonNegro2 = new Peon();
-	
-	Peon peonNegro3 = new Peon();
-	
-	Peon peonNegro4 = new Peon();
-
-	Peon peonNegro5 = new Peon();
-	
-	Peon peonNegro6 = new Peon();
-	
-	Peon peonNegro7 = new Peon();
-	
-	Peon peonNegro8 = new Peon();
-	
-	Peon peonBlanco1 = new Peon();
-	
-	Peon peonBlanco2 = new Peon();
-	
-	Peon peonBlanco3 = new Peon();
-	
-	Peon peonBlanco4 = new Peon();
-	
-	Peon peonBlanco5 = new Peon();
-	
-	Peon peonBlanco6 = new Peon();
-	
-	Peon peonBlanco7 = new Peon();
-	
-	Peon peonBlanco8 = new Peon();
-	
+	public String getPeonNegro() {
+		return peonNegro;
+	}
+	public void setPeonNegro(String peonNegro) {
+		this.peonNegro = peonNegro;
+	}
 
 }

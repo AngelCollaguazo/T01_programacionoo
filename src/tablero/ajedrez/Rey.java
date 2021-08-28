@@ -1,11 +1,27 @@
 package tablero.ajedrez;
 
-public class Rey extends MainTablero{
+public class Rey extends Pieza{
 	
-private String color;
+	private String reyBlanco;
+	private String reyNegro;
 	
-	Rey reyNegro = new Rey();
 	
-	Rey reyBlanco = new Rey();
+	public String getReyBlanco() {
+		return reyBlanco;
+	}
+	public void setReyBlanco(String reyBlanco) {
+		this.reyBlanco = reyBlanco;
+	}
+
+	@Override
+	public String toString() {
+		return "PiezaRey [reyBlanco=" + reyBlanco + ", reyNegro=" + reyNegro + "]";
+	}
+	public String getReyNegro() {
+		return reyNegro;
+	}
+	public void setReyNegro(String reyNego) {
+		this.reyNegro = reyNegro;
+	}
 
 }

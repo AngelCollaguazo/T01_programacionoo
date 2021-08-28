@@ -1,15 +1,22 @@
 package tablero.ajedrez;
 
-public class Alfil extends MainTablero{
+public class Alfil extends Pieza{
 	
-private String color;
+	private String alfilBlanco;
+	private String alfilNegro;
 	
-	Alfil alfilNegro1 = new Alfil();
+	public String getAlfilBlanco() {
+		return alfilBlanco;
+	}
+	public void setAlfilBlanca(String alfilBlanco) {
+		this.alfilBlanco = alfilBlanco;
+	}
 	
-	Alfil alfilNegro2 = new Alfil();
-	
-	Alfil alfilBlanco1 = new Alfil();
-	
-	Alfil alfilBlanco2 = new Alfil();
+	public String getAlfilNegro() {
+		return alfilNegro;
+	}
+	public void setAlfilNegro(String alfilNegro) {
+		this.alfilNegro = alfilNegro;
+	}
 	
 }

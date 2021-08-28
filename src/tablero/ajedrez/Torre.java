@@ -2,14 +2,22 @@ package tablero.ajedrez;
 
 public class Torre extends MainTablero{
 	
-private String color;
+	private String torreBlanco;
+	private String torreNegro;
 	
-	Torre torreNegro1 = new Torre();
+	public String getTorreBlanco() {
+		return torreBlanco;
+	}
+	public void setTorreBlanco(String torreBlanco) {
+		this.torreBlanco = torreBlanco;
+	}
 	
-	Torre torreNegro2 = new Torre();
-	
-	Torre torreBlanco1 = new Torre();
-	
-	Torre torreBlanco2 = new Torre();
+	public String getTorreNegro() {
+		return torreNegro;
+	}
+	public void setTorreNegro(String torreNegro) {
+		this.torreNegro = torreNegro;
+	}
+
 
 }

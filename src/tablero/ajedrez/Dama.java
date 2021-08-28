@@ -1,12 +1,26 @@
 package tablero.ajedrez;
 
-public class Dama extends MainTablero{
+public class Dama extends Pieza{
 	
-private String color;
+	public String toString() {
+		return "PiezaDama [damaBlanco=" + damaBlanco + ", damaNegro=" + damaNegro + "]";
+	}
+	private String damaBlanco;
+	private String damaNegro;
 	
-	Dama damaNegro = new Dama();
+	public String getDamaBlanco() {
+		return damaBlanco;
+	}
+	public void setDamaBlanco(String damaBlanco) {
+		this.damaBlanco = damaBlanco;
+	}
 	
-	Dama damaBlanco = new Dama();
+	public String getDamaNegro() {
+		return damaNegro;
+	}
+	public void setDamaBlanco(String damaNegro) {
+		this.damaNegro = damaNegro;
+	}
 
 
 }
