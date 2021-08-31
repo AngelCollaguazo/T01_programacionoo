@@ -1,10 +1,12 @@
 package ejercicios.ordenamiento.taller;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class MainPrimerClase {
 
 	public static void main(String[] args) {
+		Scanner lector=new Scanner(System.in);
 		// TODO Auto-generated method stub
 		// 1 primer dia de clase
 		// El profesor nos da nuestro número lista
