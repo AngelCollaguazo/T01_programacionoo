@@ -8,31 +8,29 @@ public class Cajero {
 		// TODO Auto-generated method stub
 
 		Scanner teclado = new Scanner(System.in);// TECLADO
-		int retirar;
-		int cambiar;
-		int opc = 0;
-		while (opc != 4) {
-			System.out.println("*************************************************");
-			System.out.println("*** Banco del Pichincha seleccione una opción ***");
-			System.out.println("*** 1. Retirar dinero                         ***");
-			System.out.println("*** 2. Cambiar de clave                       ***");
-			System.out.println("*** 3. Bloquear Cuenta                        ***");
-			System.out.println("*** 4. Salir                                  ***");
-			System.out.println("*************************************************");
+		int r;
+		int c;
+		int o = 0;
+		while (o != 4) {
+			System.out.println(" Banco del Pichincha seleccione una opción");
+			System.out.println(" 1. Retirar dinero  ");
+			System.out.println(" 2. Cambiar de clave ");
+			System.out.println(" 3. Bloquear cuenta");
+			System.out.println(" 4. Salir");
 
 			System.out.println("Seleccione un Opccion: ");
-			opc = teclado.nextInt();
-			if (opc == 1) {
+			o = teclado.nextInt();
+			if (o == 1) {
 				System.out.println("Ingrese valor a retirar: ");
-				retirar = teclado.nextInt();
-				System.out.println("El valor a retirar es: " + retirar);
+				r = teclado.nextInt();
+				System.out.println("El valor a retirar es: " + r);
 			} else {
-				if (opc == 2) {
+				if (o == 2) {
 					System.out.println("Ingrese nueva clave: ");
-					cambiar = teclado.nextInt();
-					System.out.println("Su clave ah sido cambiada: " + cambiar);
+					c = teclado.nextInt();
+					System.out.println("Su clave ah sido cambiada: " + c);
 				} else {
-					if (opc == 3) {
+					if (o == 3) {
 						System.out.println("Su cuenta ha sido bloqueada");
 					}
 				}
